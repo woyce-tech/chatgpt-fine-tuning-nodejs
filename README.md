@@ -56,6 +56,14 @@ Once the fine tune is created, it will take some time to process. We can get the
 node listFineTunes.js
 ```
 
+### Get specified your Fine Tune
+
+Once the fine tune is created, it will take some time to process. We can get the status of the fine tune, as well as the fine_tune_id, by calling the getFineTunes API method.
+
+```sh
+node getFineTunes.js
+```
+
 ### Testing it out
 
 Now that the fine tune has processed and our. new model is ready, we can try it out.
