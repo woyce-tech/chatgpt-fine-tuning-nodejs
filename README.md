@@ -40,7 +40,7 @@ First, upload the file with the example or custom data set to OpenAI:
 node uploadFile.js
 ```
 
-Next, use the File ID that is logged out to create a new fine tune based on davinci by updating the `training_file` in `createFineTune.js`.
+Next, use the File ID that is logged out to create a new fine tune based on davinci by updating the `training_file` in `fineTune.js`.
 
 Finally, create the fine tune:
 
