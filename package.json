@@ -1,0 +1,30 @@
+{
+  "name": "chatgpt-fine-tuning-nodejs",
+  "version": "1.0.0",
+  "description": "ChatGPT Fine-Tuning using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woyce-tech/chatgpt-fine-tuning-nodejs.git"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "nodejs",
+    "fineTuning",
+    "chatbot",
+    "modelTraining"
+  ],
+  "author": "woyce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woyce-tech/chatgpt-fine-tuning-nodejs/issues"
+  },
+  "homepage": "https://github.com/woyce-tech/chatgpt-fine-tuning-nodejs#readme",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
