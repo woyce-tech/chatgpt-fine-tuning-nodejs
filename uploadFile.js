@@ -1,7 +1,7 @@
-import { openai } from './api.js'
-import fs from 'fs'
+const { openai } = require("./api");
+const fs = require("fs");
 
-async function upload() {
+exports.upload = async () => {
   try {
     console.log('upload started');
     const response = await openai.createFile(
@@ -14,4 +14,4 @@ async function upload() {
   }
 }
 
-upload()
+this.upload()

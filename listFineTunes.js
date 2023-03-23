@@ -1,4 +1,4 @@
-import { openai } from './api.js'
+const { openai } = require("./api");
 
 async function listFineTunes() {
   try {

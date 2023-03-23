@@ -1,10 +1,10 @@
-import { openai } from './api.js'
+const { openai } = require("./api");
 
 async function createFineTune() {
   try {
     console.log('createFineTune started');
     const response = await openai.createFineTune({
-      training_file: "file-r3qUnbIFdGkziv0QThzHqpBZ",
+      training_file: "file-qYwANmP4ivaqud6yPafEPMuu",
       model: 'davinci'
     })
     console.log('response: ', response)
